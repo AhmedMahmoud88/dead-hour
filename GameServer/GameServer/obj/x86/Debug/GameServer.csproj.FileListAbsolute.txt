@@ -1,0 +1,9 @@
+E:\GameServe\GameServer\GameServer\bin\Debug\GameServer.exe
+E:\GameServe\GameServer\GameServer\bin\Debug\UnityEngine.dll
+E:\GameServe\GameServer\GameServer\bin\Debug\GameServer.pdb
+E:\GameServe\GameServer\GameServer\obj\x86\Debug\GameServer.exe
+E:\GameServe\GameServer\GameServer\obj\x86\Debug\GameServer.pdb
+E:\GameServe\GameServer\GameServer\bin\Debug\UnityEngine.Networking.dll
+E:\GameServe\GameServer\GameServer\obj\x86\Debug\GameServer.csprojResolveAssemblyReference.cache
+E:\GameServe\GameServer\GameServer\obj\x86\Debug\GameServer.csproj.CoreCompileInputs.cache
+E:\GameServe\GameServer\GameServer\obj\x86\Debug\GameServer.csproj.CopyComplete

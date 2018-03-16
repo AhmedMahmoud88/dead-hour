@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="GameServer\GameServer.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameServer\Client\GameClient.cs">
+    <Files>
+      <File FileName="GameServer\Client\GameClient.cs" Line="251" Column="3" />
+      <File FileName="GameServer\GameServer.cs" Line="19" Column="23" />
+      <File FileName="GameServer\Constants\Messages.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Client\Player.cs" Line="1" Column="1" />
+      <File FileName="GameServer\NetworkPacket.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Lobby\Lobby.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Items\Item.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Enums\Types.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Items\Weapons\Weapons.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Client\Inventory\Inventory.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Client\Inventory\Slot.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Items\Weapons\Pistol\Pistol.cs" Line="1" Column="1" />
+      <File FileName="GameServer\Items\Weapons\Rifle\M4M1.cs" Line="1" Column="1" />
+      <File FileName="GameServer\NPCs\Zombie.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

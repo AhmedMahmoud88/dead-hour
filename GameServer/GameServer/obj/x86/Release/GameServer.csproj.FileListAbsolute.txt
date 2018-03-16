@@ -1,0 +1,5 @@
+E:\GameServe\GameServer\GameServer\bin\Release\GameServer.exe
+E:\GameServe\GameServer\GameServer\bin\Release\GameServer.pdb
+E:\GameServe\GameServer\GameServer\bin\Release\UnityEngine.dll
+E:\GameServe\GameServer\GameServer\obj\x86\Release\GameServer.exe
+E:\GameServe\GameServer\GameServer\obj\x86\Release\GameServer.pdb

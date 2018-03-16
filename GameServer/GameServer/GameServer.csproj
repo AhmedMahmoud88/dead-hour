@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{7DB8D31E-A878-4AFE-8062-6E3360B0962F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GameServer</RootNamespace>
+    <AssemblyName>GameServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\DLL\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>..\DLL\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Client\GameClient.cs" />
+    <Compile Include="Client\Player.cs" />
+    <Compile Include="GameServer.cs" />
+    <Compile Include="Constants\Messages.cs" />
+    <Compile Include="NetworkPacket.cs" />
+    <Compile Include="Lobby\Lobby.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="Enums\Types.cs" />
+    <Compile Include="Items\Weapons\Weapons.cs" />
+    <Compile Include="NPCs\Zombie.cs" />
+    <Compile Include="Client\Inventory\Inventory.cs" />
+    <Compile Include="Client\Inventory\Slot.cs" />
+    <Compile Include="Items\Weapons\Pistol\Pistol.cs" />
+    <Compile Include="Items\Weapons\Rifle\M4M1.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Client\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Lobby\" />
+    <Folder Include="Items\" />
+    <Folder Include="Items\Weapons\" />
+    <Folder Include="Enums\" />
+    <Folder Include="NPCs\" />
+    <Folder Include="Client\Inventory\" />
+    <Folder Include="Items\Weapons\Pistol\" />
+    <Folder Include="Items\Weapons\Rifle\" />
+  </ItemGroup>
+</Project>
